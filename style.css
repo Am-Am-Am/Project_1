@@ -103,6 +103,8 @@ h2 {
 
 .defend {
   background-image: url("assets/images/bg1.png");
+  background-repeat: no-repeat;
+  height: 609px;
 }
 
 .defendContent ul li {
@@ -288,8 +290,8 @@ button{
   margin-bottom: 45px;
 }
 .findImg img {
-  width: 1160px;
-  height: 571px;
+  width: 1200px;
+  
 }
 
 .findMain {
@@ -300,9 +302,12 @@ button{
 .findCard {
   width: 380px;
   margin-right: 20px;
+  position: relative;
 }
 
 .findCard li {
+  position: relative;
+  right: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -446,6 +451,11 @@ button{
   position: relative;
 }
 
+.stagesText .btn{
+  position: relative;
+  right: 25px;
+}
+
 .number {
   position: absolute;
   top: 0;
@@ -572,6 +582,19 @@ button{
   margin-bottom: 25px;
 }
 
+
+.chooseCard:hover{
+  background-color: var(--red);
+  color: white;
+}
+
+.chooseCard span{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
 .questions {
   padding-top: 75px;
 }
@@ -580,14 +603,20 @@ button{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
 }
 
+.questionsHead h2{
+  width: 800px;
+}
 .questionsHead li {
   color: var(--red);
+  width: 450px;
 }
 
 .questionsHead span {
   color: var(--grey);
+  width: 200px;
 }
 
 .questionsMain {
@@ -614,6 +643,11 @@ button{
   padding: 20px;
   justify-content: space-between;
   align-items: flex-start;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  height: 112px;
+  margin-bottom: 21px;
 }
 
 .headerText {
