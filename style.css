@@ -102,7 +102,7 @@ h2 {
 }
 
 .defend {
-  background-image: url("images/bg1.png");
+  background-image: url("assets/images/bg1.png");
 }
 
 .defendContent ul li {
@@ -260,7 +260,7 @@ button{
   height: 1265px;
   padding-top: 75px;
   background: #f8f8f8;
-  background-image: url("images/bg3.svg");
+  background-image: url("assets/images/bg3.svg");
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -316,7 +316,7 @@ button{
 .suggest {
   height: 1000px;
   padding-top: 75px;
-  background-image: url("images/bg4.svg");
+  background-image: url("assets/images/bg4.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -482,7 +482,7 @@ button{
 
 .results {
   height: 850px;
-  background-image: url("images/bg5.png");
+  background-image: url("assets/images/bg5.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 75px;
@@ -744,7 +744,7 @@ footer {
   transition: all 0.5s ease-in-out;
 }
 .arrow {
-  background-image: url("images/arrow.svg");
+  background-image: url("assets/images/arrow.svg");
   background-size: cover;
   border-width: 0 3px 3px 0;
   display: inline-block;
