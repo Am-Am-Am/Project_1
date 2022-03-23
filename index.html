@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="maskinput.js"></script>
 </head>
 <body>
     <header>
@@ -65,7 +67,21 @@
                                         <li><span>Услуги адвоката</span></li>
                                         <li><span>Правовая поддержка предпринимателей</span></li>
                                 </ul>
-                            <div class="call"></div>
+                            <div class="call">
+                                <form>
+                                    <div class="callForm">
+                                        <div>
+                                            <input id="telNo" name="telNo" type="tel" class="tel" required
+                                                 placeholder="+7">
+                                            <span class="validity"></span>
+                                        </div>
+                                        <div>
+                                            <button class="btn">Оставить заявку</button>
+                                        </div>
+                                    </div>
+                                   
+                                </form>
+                            </div>
                     </div>
                         <div class="largeLogo">
                             <img src="images/logoLarge.png">
@@ -224,8 +240,10 @@
                     <div class="suggestMain">
                         <div class="suggestCard">
                             <div class="suggestText">
-                                <span class="itemHead">Защита от субсидиарной ответственности</span>
-                                <p>Каждое дело индивидуально и зависит от ситуации. </p>
+                                <div class="suggestWrapper">
+                                    <span class="itemHead">Защита от субсидиарной ответственности</span>
+                                    <p>Каждое дело индивидуально и зависит от ситуации. </p>
+                                </div>
                                 <div class="itemfooter">
                                     <span class="more">Подробнее</span>
                                     <img src="images/1.svg">
@@ -234,8 +252,11 @@
                         </div>
                         <div class="suggestCard">
                             <div class="suggestText">
-                                <span class="itemHead">Ликвидация предприятий по всей России</span>
-                                <p>Законный способ закрыть ООО. </p>
+                                <div class="suggestWrapper">
+                                    <span class="itemHead">Ликвидация предприятий по всей России</span>
+                                    <p>Законный способ закрыть ООО. </p>
+                                </div>
+                                
                                 <div class="itemfooter">
                                     <span class="more">Подробнее</span>
                                     <img src="images/2.svg">
@@ -476,7 +497,58 @@
                 <div class="reviewsContent">
                     <h2>Отзывы наших клиентов</h2>
                     <div class="carousel">
-                        карусель
+                        <div class="carousel-wrapper">
+                            <span id="item-1"></span>
+                            <span id="item-2"></span>
+                            <span id="item-3"></span>
+                            <div class="carousel-item item-1">
+                                <div class="carouselCard">
+                                    <div class="cardAva">
+                                        <img src="images/Ava.svg">
+                                    </div>
+                                    <div class="cardText">
+                                        <div class="avaName">Валентин Кристин</div>
+                                        <div class="avaTime">10 минут назад</div>
+                                        <div class="avaMark"><img src="images/mark.svg"></div>
+                                        <div class="avaText">Спасибо за профессиональную работу! Долго выбирал компанию которая сделает монтаж септика и не ошибся. Приехала бригада и через 7 часов уже был проведен трубопровод, установлен дренажный колодец и станция биологической очистки в загородный дом. Еще раз спасибо за работу!</div>
+                                    </div>
+                                </div>
+                              <a class="arrow arrow-prev" href="#item-3"></a>
+                              <a class="arrow arrow-next" href="#item-2"></a>
+                            </div>
+                            
+                            <div class="carousel-item item-2">
+                                <div class="carouselCard">
+                                    <div class="cardAva">
+                                        <img src="images/Ava.svg">
+                                    </div>
+                                    <div class="cardText">
+                                        <div class="avaName">Валентин Кристин 2</div>
+                                        <div class="avaTime">10 минут назад</div>
+                                        <div class="avaMark"><img src="images/mark.svg"></div>
+                                        <div class="avaText">Спасибо за профессиональную работу! Долго выбирал компанию которая сделает монтаж септика и не ошибся. Приехала бригада и через 7 часов уже был проведен трубопровод, установлен дренажный колодец и станция биологической очистки в загородный дом. Еще раз спасибо за работу!</div>
+                                    </div>
+                                </div>
+                              <a class="arrow arrow-prev" href="#item-1"></a>
+                              <a class="arrow arrow-next" href="#item-3"></a>
+                            </div>
+                            
+                            <div class="carousel-item item-3">
+                                <div class="carouselCard">
+                                    <div class="cardAva">
+                                        <img src="images/Ava.svg">
+                                    </div>
+                                    <div class="cardText">
+                                        <div class="avaName">Валентин Кристин 3</div>
+                                        <div class="avaTime">10 минут назад</div>
+                                        <div class="avaMark"><img src="images/mark.svg"></div>
+                                        <div class="avaText">Спасибо за профессиональную работу! Долго выбирал компанию которая сделает монтаж септика и не ошибся. Приехала бригада и через 7 часов уже был проведен трубопровод, установлен дренажный колодец и станция биологической очистки в загородный дом. Еще раз спасибо за работу!</div>
+                                    </div>
+                                </div>
+                              <a class="arrow arrow-prev" href="#item-2"></a>
+                              <a class="arrow arrow-next" href="#item-1"></a>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -516,14 +588,13 @@
         <div class="container">
             <div class="footer">
                 <div class="footerFirst">
-                    <div class="whiteLogo">
-                        <img src="images/logoWhite.svg">
-                    </div>
+                    <div class="whiteLogo"></div>
                 </div>
                 <div class="footerSecond"></div>
                 <div class="footerThird"></div>
             </div>
         </div>
     </footer>
+    <script scr="script.js"></script>
 </body>
 </html>
