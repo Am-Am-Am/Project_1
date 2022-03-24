@@ -65,7 +65,7 @@ h2 {
   color: #434343;
 }
 
-el2{
+.el2{
   margin-top: 10px;
   font-size: 14px;
   font-weight: 400;
@@ -124,7 +124,8 @@ el2{
   background-repeat: no-repeat;
   min-height: 609px;
   background-size: cover;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right:5% ;
 }
 
 .defendContent ul li {
