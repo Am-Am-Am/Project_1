@@ -1033,13 +1033,24 @@ footer {
 
 
 @media (max-width: 480px) {
-  .container{
-    max-width: 320px;
-    margin: auto;
+  h1{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
   }
 
   h2{
-    font-size: 26px;
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  }
+  .container{
+    max-width: 320px;
+    margin: auto;
   }
 
   .largeLogo img {
@@ -1145,9 +1156,25 @@ h2{
 
 
 
-@media (max-width: 319px) {
+@media (max-width: 320px) {
+  h1{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  }
+
+  h2{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  }
+
   .container{
-    max-width: 300px;
+    max-width: 320px;
     margin: auto;
   }
   .map{
