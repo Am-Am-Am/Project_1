@@ -20,7 +20,7 @@
                     <div class="e"><a href="#result">Результаты работы</a></div>
                     <div class="e"><a href="#questions">FAQ</a></div>
                     <div class="e"><a href="#contacts">Контакты</a></div>
-                    <div><a href="tel:+74951059057">+7 495 105 90 57</a></div>
+                    <div id="telephone"><a href="tel:+74951059057"><span>+7 495 105 90 57</span></a></div>
                 </div>
                 <div class="btnTop"> 
                         <div class="css-modal-details">    
@@ -28,13 +28,26 @@
                                 <summary>Оставить заявку</summary>
                                 <div class="cmc">
                                     <div class="cmt">
-                                        <p>Текст в модальном окне</p>        
+                                        <div class="call">
+                                            <form id="wdh_form" name="form">
+                                                <div class="callForm">
+                                                    <div>
+                                                        <input id="telNo" name="telNo" type="tel" class="tel" required
+                                                             placeholder="+7(___) ___-__-__" inputmode="text">
+                                                        <span class="validity"></span>
+                                                    </div>
+                                                    <div>
+                                                        <button class="btn" id="callBtn" type="submit">Оставить заявку</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="agreement"><a class="a" href="/agree.html">Отправляя данные, вы соглашаетесь с политикой конфиденциальности</a></div>
+                                        </div>       
                                     </div>
                                 </div>
                             </details>
                         </div>
                 </div>
-                <div class="agree"></div>
             </div>
         </div>
     </header>
@@ -64,11 +77,13 @@
                                         </div>
                                     </div>
                                 </form>
+                                <div class="agreement"><a class="a" href="/agree.html">Отправляя данные, вы соглашаетесь с политикой конфиденциальности</a></div>
                             </div>
                         </div>
                         <div class="largeLogo">
                             <img src="assets/images/largeLogo2.png">
                         </div>
+
                     </div>
             </div>
         </div>
@@ -346,7 +361,21 @@
                                             <summary>Оставить заявку</summary>
                                             <div class="cmc">
                                                 <div class="cmt">
-                                                    <p>Текст в модальном окне</p>        
+                                                    <div class="call">
+                                                        <form id="wdh_form" name="form">
+                                                            <div class="callForm">
+                                                                <div>
+                                                                    <input id="telNo" name="telNo" type="tel" class="tel" required
+                                                                         placeholder="+7(___) ___-__-__" inputmode="text">
+                                                                    <span class="validity"></span>
+                                                                </div>
+                                                                <div>
+                                                                    <button class="btn" id="callBtn" type="submit">Оставить заявку</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                        <div class="agreement"><a class="a" href="/agree.html">Отправляя данные, вы соглашаетесь с политикой конфиденциальности</a></div>
+                                                    </div>               
                                                 </div>
                                             </div>
                                         </details>
@@ -447,28 +476,28 @@
                         <div class="questionCard">
                             <div class="cardHead">
                                 <div class="headerText">Чем важна кандидатура арбитражного управляющего?</div>
-                                <div class="plus"><img src="assets/images/plus.svg"></div>
+                             
                             </div>
                             <div class="cardContent">Заявление должен подать некий «дружественный кредитор», и указать в заявлении арбитражного управляющего, с которым есть предварительная договоренность. Если такой возможности нет, и заявление будет подано от самого должника, стоит попытаться связаться с саморегулируемой организацией арбитражных управляющих и достичь договоренностей.</div>
                         </div>
                         <div class="questionCard">
                             <div class="cardHead">
                                 <div class="headerText">Можно ли заявить требование, приобретенное у независимого кредитора в процедуре банкротства.</div>
-                                <div class="plus"><img src="assets/images/plus.svg"></div>
+                               
                             </div>
                             <div class="cardContent">На требование, полученное лицом, контролирующим должника в условиях имущественного кризиса организации, распространяется тот же режим удовлетворения, что и на требование о возврате компенсационного финансирования, – оно удовлетворяется в очередности, предшествующей распределению ликвидационной квоты.</div>
                         </div>
                         <div class="questionCard">
                             <div class="cardHead">
                                 <div class="headerText">Возникла ли у меня обязанность подавать заявление о банкротстве если по итогам года возникла задолженность по налогам. </div>
-                                <div class="plus"><img src="assets/images/plus.svg"></div>
+                               
                             </div>
                             <div class="cardContent">При изучении совокупности норм законодательства о несостоятельности следует, что величина просроченных платежей законодательно не определена, так что формально иск требуется подавать при любой сумме невыполненных обязательств. У директора есть 30 календарных, дней с момента наступления неплатежеспособности, на подачу заявления в суд.</div>
                         </div>
                         <div class="questionCard">
                             <div class="cardHead">
                                 <div class="headerText">Кредитные каникулы или банкротство? Что выбрать?</div>
-                                <div class="plus"><img src="assets/images/plus.svg"></div>
+                                
                             </div>
                             <div class="cardContent">Можно воспользоваться любым из упомянутых механизмов. Но они сильно различаются и по целям, и по способу реализации, и по последствиям.
                                 Для кредитных каникул нужно выполнить определенным требованиям, собрать справки. В результате на полгода сдвигается график выплат. Однако, проценты продолжают начисляться.</div>
@@ -476,14 +505,14 @@
                         <div class="questionCard">
                             <div class="cardHead">
                                 <div class="headerText">Не устраивает как ведет процедуру нынешний конкурсный управляющий. Можно ли его заменить другим?</div>
-                                <div class="plus"><img src="assets/images/plus.svg"></div>
+                               
                             </div>
                             <div class="cardContent">Если вы являетесь мажоритарным кредитором, либо большинство других кредиторов придерживаются с вами одного мнения – возможна замена управляющего через собрание кредиторов.</div>
                         </div>
                         <div class="questionCard">
                             <div class="cardHead">
                                 <div class="headerText">Какой срок исковой давности будет применяться при привлечении к субсидиарной ответственности.</div>
-                                <div class="plus"><img src="assets/images/plus.svg"></div>
+                               
                             </div>
                             <div class="cardContent">По общему правилу, исковая давность исчисляется в соответствии с действующим, на момент совершения правонарушения правовым регулированием. Однако существует достаточно обширная судебная практика, которая придерживается иного мнения. </div>
                         </div>
@@ -562,22 +591,36 @@
                             <div class="num"><a href="tel:+74951059057">+7 495 105 90 57</a></div>
                             <div class="sub">Станция метро Трубная, ул. Нижний кисельский переулок, 3 стр. 2 </div>
                             <div class="btnTop"> 
-                        <div class="css-modal-details">    
-                            <details>
+                                <div class="css-modal-details">    
+                                <details>
                                 <summary>Оставить заявку</summary>
                                 <div class="cmc">
                                     <div class="cmt">
-                                        <p>Текст в модальном окне</p>        
+                                        <div class="call">
+                                            <form id="wdh_form" name="form">
+                                                <div class="callForm">
+                                                    <div>
+                                                        <input id="telNo" name="telNo" type="tel" class="tel" required
+                                                             placeholder="+7(___) ___-__-__" inputmode="text">
+                                                        <span class="validity"></span>
+                                                    </div>
+                                                    <div>
+                                                        <button class="btn" id="callBtn" type="submit">Оставить заявку</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="agreement"><a class="a" href="/agree.html">Отправляя данные, вы соглашаетесь с политикой конфиденциальности</a></div>      
                                     </div>
                                 </div>
-                            </details>
-                        </div>
-                </div>
+                                </details>
+                                </div>
+                            </div>
+                         
                         </div>
                     </div>
-                    <!-- <div class="map">
-                        <img src="assets/images/Снимок экрана 2022-03-14 в 00.07 1.png">
-                    </div> -->
+                    <div class="map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaae5b2d500970d70fd5f1d4dea427f7b71f4b4c957666ba0451c229253a633be&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
                 </div>
             </div>
         </div>
@@ -596,14 +639,16 @@
                     <div class="e"><a href="#result">Результаты работы</a></div>
                     <div class="e"><a href="#questions">FAQ</a></div>
                     <div class="e"><a href="#contacts">Контакты</a></div>
+                    <div class="agreement"><a href="/agree.html">Политика конфиденциальности</a></div>
                 </div>
                 <div class="footerThird">
                     <div>+7 495 105 90 57</div>
                     <div>С 10:00 до 19:00</div>
-                    <div></div>
+                    <div>Станция метро Трубная, ул. Нижний кисельский переулок, 3 стр. 2</div>
                 </div>
             </div>
         </div>
+        
     </footer>
     <script src="assets/script.js"></script>
     <script src="assets/scriptResult.js"></script>

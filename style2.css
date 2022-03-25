@@ -23,13 +23,22 @@ a{
   margin: auto;
 }
 
-h2 {
+h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
-  color: var(--red);
+  color: var(--grey);
+}
+
+h2{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+  color: var(--grey);
 }
 .header {
   display: flex;
@@ -206,24 +215,6 @@ button{
     cursor: pointer;
 }
 
-.a{
-  color: #878787;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  position: relative;
-  bottom: 20px;
-  left: 10px;
-  max-width: 229px;
-}
-
-form{
-  display: flex;
-  justify-content: center;
-}
-
 .callForm button{
   margin-left: 11px;
 }
@@ -340,175 +331,30 @@ form{
   line-height: 20px;
 }
 
-.find {
-  min-height: 1265px;
-  background: #f8f8f8;
-  background-image: url("assets/images/bg3.svg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  padding-bottom: 75px;
-  padding-left: 5%;
-  padding-right: 5%;
+
+
+.mainWrapper{
+  padding: 75px 0px 75px 0px;
+  min-height: 500px;
 }
 
-.findContent {
-  display: flex;
-  flex-direction: column;
-  max-width: 1200px;
+.firstP{
+  margin-left: 0;
 }
 
-.findHead {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* flex-wrap: wrap; */
-  justify-content: flex-start;
-  max-width: 1200px;
- 
+p{
+  margin-left: 20px;
 }
 
-.findHead li {
-  color: var(--red);
- 
-}
-
-.findHead span {
-  color: var(--grey);
-}
-
-.findImg {
-  margin-bottom: 45px;
-}
-.findImg img {
-  max-width: 1200px;
-  width:100%;
-  border-radius: 5px;
-}
-
-.findMain {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.findCard {
-  width: 380px;
-  margin-right: 20px;
-  position: relative;
-}
-
-.findCard li {
-  position: relative;
-  right: 20px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: var(--red);
-}
-.findCard p {
-  padding-left: 20px;
-}
-
-.suggest {
-  min-height: 1000px;
-  padding-top: 75px;
-  background-image: url("assets/images/bg4.svg");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  padding-bottom: 75px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.suggestContent {
-  display: flex;
-  flex-direction: column;
-}
-
-.suggestHead {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* flex-wrap: wrap; */
-  justify-content: flex-start;
-}
-
-.suggestHead li {
+.a{
   color: var(--red);
 }
 
-.suggestHead span {
-  color: var(--grey);
-}
 
-.suggestMain {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-}
 
-.suggestCard {
-  max-width: 360px;
-  max-height: 213px;
-  background: #f8f8f8;
-  border-bottom: 5px solid var(--grey);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-bottom: 5%;
-  margin-right: 2%;
-}
 
-.suggestCard:hover {
-  color: var(--red);
-  border-bottom: 5px solid var(--red);
-}
 
-.suggestWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.suggestText {
-  height: 213px;
-  padding: 20px;
-  position: relative;
-  padding-bottom: 1%;
-}
 
-.suggestText p {
-  position: relative;
-}
-
-.itemHead {
-  margin-bottom: 15px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.itemfooter {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: absolute;
-  bottom: 10px;
-}
-
-.itemfooter img {
-  position: absolute;
-  right: -230px;
-}
-
-.more {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-}
 
 .stages {
   min-height: 771px;
@@ -599,6 +445,7 @@ form{
   background-image: url("assets/images/bg5.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 75px;
   padding-bottom: 75px;
   padding-left: 5%;
   padding-right: 5%;
@@ -708,7 +555,9 @@ form{
 }
 .questions {
   margin-bottom: 75px;
-  min-height:1200px;
+  min-height:1190px;
+  padding-left: 5%;
+  padding-right: 5%;
   display:flex;
   justify-content: center;
 }
@@ -722,7 +571,7 @@ form{
 }
 
 .questionsHead h2{
-  max-width: 500px;
+  max-width: 800px;
 }
 .questionsHead li {
   color: var(--red);
@@ -739,7 +588,6 @@ form{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  max-width: 1200px;
   
 }
 
@@ -752,7 +600,6 @@ form{
   box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-bottom: 30px;
-  /* margin-right: 40px; */
 }
 
 .cardHead {
@@ -1026,19 +873,10 @@ footer {
 
 
 
-@media (max-width: 1190px) {
+@media (max-width: 1200px) {
   .container{
     max-width: 1060px;
     margin: auto;
-  }
-
-  .itemfooter img {
-    position: absolute;
-    right: -230px;
-  }
-
-  .questionCard{
-    margin-right: 0px;
   }
 
 
@@ -1061,11 +899,6 @@ footer {
   .container{
     max-width: 720px;
     margin: auto;
-  }
-
-  .itemfooter img {
-    position: absolute;
-    right: -200px;
   }
 
   .carousel-wrapper {
@@ -1093,26 +926,12 @@ footer {
     display: none;
   }
 
-  .questionCard{
-    margin-right: 0px;
-  }
-
 }
 
 @media (max-width: 769px) {
   .container{
     max-width: 640px;
     margin: auto;
-  }
-
-  .itemfooter img {
-    position: absolute;
-    right: -180px;
-    
-  }
-
-  .questionCard{
-    margin-right: 0px;
   }
 
   .largeLogo img {
@@ -1217,15 +1036,6 @@ footer {
   .container{
     max-width: 320px;
     margin: auto;
-  }
-
-  .itemfooter img {
-    position: absolute;
-    right: -140px;
-  }
-
-  .questionCard{
-    margin-right: 0px;
   }
 
   h2{
@@ -1458,7 +1268,7 @@ h2{
   transition: 0.5s;
   /* border: 6px solid var(--red); */
   border-radius: 12px;
-  background: #d6d6d6;
+  background: #FFF;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
   text-align: center;
   overflow: auto;
