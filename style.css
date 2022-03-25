@@ -721,17 +721,20 @@ button{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .questionCard {
   display: flex;
   flex-direction: column;
+  align-items: center;
   max-width: 560px;
   background: #ffffff;
   box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-bottom: 30px;
-  margin-right: 40px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .cardHead {
@@ -755,7 +758,7 @@ button{
 }
 
 .cardContent {
-  padding: 0px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .reviews {
