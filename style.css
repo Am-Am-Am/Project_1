@@ -220,10 +220,16 @@ button{
   max-width: 229px;
 }
 
-.cmt  form{
+/* .cmt, .cmt1, form{
+  display: flex;
+  justify-content: center;
+} */
+
+.justify{
   display: flex;
   justify-content: center;
 }
+
 
 .callForm button{
   margin-left: 11px;
@@ -483,6 +489,164 @@ button{
   position: relative;
 }
 
+.css-modal-details1 {
+  margin-left: -10px;
+
+}
+
+/* Кнопка для открытия */
+.css-modal-details1 summary {
+  display: inline-flex;
+  margin: 10px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--grey);
+  font-weight: bold;
+  /* background: #337AB7; */
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;    
+  /* background-color: #b63334; */
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+color: #434343;
+}
+.css-modal-details1 summary:hover{
+  color: var(--);
+}
+.css-modal-details1 summary:active,
+.css-modal-details1 summary:focus {
+  color: var(--grey);
+}
+.css-modal-details1 summary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -50px;
+  bottom: 0;
+  left: 0;
+  border-right: 50px solid transparent;
+  z-index: -1;
+
+  width: 221px;
+  height: 55px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.css-modal-details1 summary:hover:before,
+.css-modal-details1 summary:active:before,
+.css-modal-details1 summary:focus:before {
+  /* transform: translateX(0); */
+}
+
+/* Кнопка при открытом окне переходит на весь экран */
+.css-modal-details1 details[open] summary {
+  cursor: default;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+
+/* Контейнер, который затемняет страницу */
+.css-modal-details1 details .cmc1 {
+  display:flex;
+  align-items:center;
+  justify-content:center;    
+}
+.css-modal-details1 details[open] .cmc1 {
+  pointer-events: none;
+  z-index: 4;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  animation: bg 0.5s ease;
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+/* Модальное окно */
+.css-modal-details1 details .cmt1 {
+  font-family: Verdana, sans-serif;  
+  font-size: 16px;
+  padding: 20px;
+  width:80%;
+  max-width: 600px;
+  max-height: 70%;
+  transition: 0.5s;
+  /* border: 6px solid var(--red); */
+  border-radius: 12px;
+  background: #d6d6d6;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  overflow: auto;
+}
+.css-modal-details1 details[open] .cmt1 {
+  animation: scale 0.5s ease;
+  z-index: 4;
+  pointer-events: auto;
+}
+
+/* Декоративная кнопка с крестиком */
+.css-modal-details details[open] .cmc:after {
+  display: none;
+  content: "";
+  width: 50px;
+  height: 50px;
+  /* border: 6px solid #BFE2FF; */
+  border-radius: 12px;
+  position: absolute;
+  z-index: 10;
+  top: 35%;
+  left: 70%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+  background-image: url("assets/images/closesm.svg");
+  background-color: #FFF;
+  background-size: 40px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  animation: scale 0.5s ease;
+}
+
+summary:hover{
+  color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .itemHead {
   margin-bottom: 15px;
   font-style: normal;
@@ -501,7 +665,7 @@ button{
 
 .itemfooter img {
   position: absolute;
-  right: -230px;
+  right: -180px;
 }
 
 .more {
@@ -1365,7 +1529,7 @@ h2{
   line-height: 20px;
   color: #FFF;
   font-weight: bold;
-  font-family: 'Roboto', Тahoma, sans-serif;
+ 
   /* background: #337AB7; */
   cursor: pointer;
 
