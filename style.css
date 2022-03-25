@@ -34,7 +34,7 @@ h2 {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 10px;
   max-width: 1200px;
 }
@@ -50,7 +50,7 @@ h2 {
   max-height: 50px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   margin-right: 10px;
   margin-left: 10px;
@@ -140,7 +140,7 @@ h2 {
 .defend {
   background-image: url("assets/images/bg1.png");
   background-repeat: no-repeat;
-  min-height: 609px;
+  min-height: 596px;
   background-size: cover;
   padding-left: 5%;
   padding-right:5% ;
@@ -153,15 +153,19 @@ h2 {
 .defendContent ul li span {
   color: var(--grey);
 }
+.defendContent h2{
+  margin-bottom: 45px;
+}
 .wrapper {
   min-height: 610px;
-  padding-top: 75px;
+  padding-bottom: 3%;
   display: flex;
-  padding-bottom: 75px;
+  align-items: center;
 }
 
 .call{
-    max-width: 700px;
+    /* max-width: 1200px; */
+    width: 100%;
 }
 .callForm{
     display: flex;
@@ -189,6 +193,7 @@ h2 {
     padding-left: 10px;
     margin-bottom: 5%;
     margin-left: 5%;
+    margin-right: 10px;
 }
 button{
     border: none;
@@ -198,20 +203,24 @@ button{
     cursor: pointer;
 }
 
+.callForm button{
+  margin-left: 11px;
+}
 
 .largeLogo img {
   max-width: 512px;
   max-height: 461px;
 }
-.advantages{
-  padding-top: 75px;
-  min-height: 308px;
-}
+
+
+
 .advantagesContent {
+  min-height: 308px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 75px;
 }
 
 .card {
@@ -221,7 +230,8 @@ button{
   background: #b63334;
   box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
+  
 }
 .cardContent {
   padding: 10px;
@@ -244,11 +254,11 @@ button{
   color: #ffffff;
 }
 
+
 .situationContent {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 5%;
 }
 
 .situationContentHead {
@@ -256,7 +266,7 @@ button{
   flex-direction: row;
   align-items: center;
   color: var(--red);
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: flex-start;
 }
 
@@ -268,7 +278,8 @@ button{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 1200px;
 }
 
 .situationImg img {
@@ -278,7 +289,7 @@ button{
 }
 
 .situationCard {
-  width: 200px;
+  max-width: 200px;
   margin-right: 1%;
 }
 
@@ -310,30 +321,34 @@ button{
 
 .find {
   min-height: 1265px;
-  padding-top: 75px;
   background: #f8f8f8;
   background-image: url("assets/images/bg3.svg");
   background-repeat: no-repeat;
   background-position: right top;
   padding-bottom: 75px;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .findContent {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
 }
 
 .findHead {
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: flex-start;
+  max-width: 1200px;
+ 
 }
 
 .findHead li {
   color: var(--red);
+ 
 }
 
 .findHead span {
@@ -345,8 +360,8 @@ button{
 }
 .findImg img {
   max-width: 1200px;
-  width:100%
-  
+  width:100%;
+  border-radius: 5px;
 }
 
 .findMain {
@@ -394,7 +409,7 @@ button{
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: flex-start;
 }
 
@@ -476,13 +491,13 @@ button{
 .stages {
   min-height: 771px;
   background: #f8f8f8;
-  padding-top: 75px;
   padding-bottom: 75px;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .stagesHead {
+  padding-top: 75px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -520,7 +535,7 @@ button{
 
 .stagesText .btn{
   position: relative;
-  right: 25px;
+ 
 }
 
 .number {
@@ -578,7 +593,7 @@ button{
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: flex-start;
 }
 
@@ -676,14 +691,16 @@ button{
   min-height:1190px;
   padding-left: 5%;
   padding-right: 5%;
+  display:flex;
+  justify-content: center;
 }
 
 .questionsHead {
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
 }
 
 .questionsHead h2{
@@ -703,7 +720,7 @@ button{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .questionCard {
@@ -754,7 +771,7 @@ button{
 }
 
 .contacts {
-  min-height: 768px;
+  min-height: 500px;
   background-color: #f8f8f8;
   padding-left: 5%;
   padding-right: 5%;
@@ -781,6 +798,19 @@ button{
   font-weight: 400;
   font-size: 22px;
   line-height: 27px;
+  
+}
+
+.num a{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #434343;
 }
 
 .sub {
@@ -839,6 +869,30 @@ footer {
   padding-top: 75px;
   padding-bottom: 75px;
   width: 100%;
+}
+
+.footer{
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+}
+
+.footerFirst{
+  margin-right: 5%;
+}
+
+.footerSecond{
+  margin-right: 5%;
+  color:white;
+  line-height: 30px;
+}
+
+.footerSecond a{
+  color: white;
+}
+
+.footerThird{
+  line-height: 30px;
 }
 
 .reviewsContent {
@@ -944,14 +998,14 @@ footer {
 }
 
 
+
+
 @media (max-width: 1200px) {
   .container{
     max-width: 970px;
     margin: auto;
   }
-  .el{
-    display: none;
-  }
+
 
   /* .social{
     display: none;
@@ -961,6 +1015,11 @@ footer {
     display: none;
   } */
 
+  .situationContentMain {
+   
+    justify-content: space-evently;
+   
+  }
 }
 
 @media (max-width: 1060px) {
@@ -976,7 +1035,7 @@ footer {
     margin: 0 auto;
   }
 
-  .el{
+  .e{
     display: none;
   }
 
@@ -986,6 +1045,12 @@ footer {
 
   .header > .btn{
     display: none;
+  }
+
+  .situationContentMain {
+   
+    justify-content: space-evenly;
+   
   }
 
 }
@@ -1027,7 +1092,7 @@ footer {
     transform: translateY(-50%) rotate(0deg);
   }
 
-  .el{
+  .e{
     display: none;
   }
 
@@ -1035,14 +1100,61 @@ footer {
     display: none;
   }
 
-  .header > .btn{
+  /* .header > .btn1{
     display: none;
+  } */
+
+  .resultsMain{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .choose{
+    /* display: none; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .chooseCard{
+    width: 125px;
   }
 
-  .choose{
-    display: none;
+  .chooseCard span{
+    font-size: 16px;
   }
+
+  .situationImg img {
+    width: 300px;
+    height: 206px;
+    margin-bottom: 20px;
+  }
+  
+  .situationCard {
+    max-width: 300px;
+    margin-right: 1%;
+  }
+  .situationContentHead{
+    flex-wrap: wrap;
+  }
+  .findHead{
+    flex-wrap: wrap;
+  }
+  
+.suggestHead{
+  flex-wrap: wrap;
 }
+.resultsHead{
+  flex-wrap: wrap;
+}
+.questionsHead{
+  flex-wrap: wrap;
+}
+.btnTop{
+  display: none;
+}
+}
+
 
 @media (max-width: 480px) {
   .container{
@@ -1091,15 +1203,11 @@ footer {
     transform: translateY(-50%) rotate(0deg);
   }
 
-  .el{
-    display: none;
-  }
-
   .social{
     display: none;
   }
 
-  .header > .btn{
+  .css-modal-details{
     display: none;
   }
 
@@ -1111,14 +1219,226 @@ footer {
     padding-top: 0;
   }
 
-  .el2{
+  .e{
     display: none;
   }
+  .situationImg img {
+    width: 300px;
+    height: 206px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .situationCard {
+    max-width: 300px;
+    margin-right: 1%;
+    justify-content: center;
+  }
+  .situationContentHead{
+    flex-wrap: wrap;
+  }
+
+  .situationContentMain{
+    display: flex;
+    justify-content: center;
+  }
+  .findHead{
+    flex-wrap: wrap;
+  }
+  
+.suggestHead{
+  flex-wrap: wrap;
 }
+.resultsHead{
+  flex-wrap: wrap;
+}
+.questionsHead{
+  flex-wrap: wrap;
+}
+
+h2{
+  line-height: 30px;
+}
+.btnTop{
+  display: none;
+}
+}
+
+
 
 @media (max-width: 319px) {
   .container{
     max-width: 300px;
     margin: auto;
+  }
+}
+
+/* Контейнер для кнопки, чтобы не прыгал контент, когда она сменит позиционирование */
+.css-modal-details {
+  height: 60px;
+  display:flex;
+  align-items:center;
+  margin-left: -10px;
+
+}
+
+/* Кнопка для открытия */
+.css-modal-details summary {
+  display: inline-flex;
+  margin: 10px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Roboto', Тahoma, sans-serif;
+  /* background: #337AB7; */
+  cursor: pointer;
+
+  overflow: hidden;
+  z-index: 1;    
+
+  width: 221px;
+  height: 55px;
+  /* background-color: #b63334; */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.css-modal-details summary:hover,
+.css-modal-details summary:active,
+.css-modal-details summary:focus {
+  color: #FFF;
+}
+.css-modal-details summary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -50px;
+  bottom: 0;
+  left: 0;
+  border-right: 50px solid transparent;
+  z-index: -1;
+
+  width: 221px;
+  height: 55px;
+  background-color: #b63334;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.css-modal-details summary:hover:before,
+.css-modal-details summary:active:before,
+.css-modal-details summary:focus:before {
+  /* transform: translateX(0); */
+}
+
+/* Кнопка при открытом окне переходит на весь экран */
+.css-modal-details details[open] summary {
+  cursor: default;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+
+/* Контейнер, который затемняет страницу */
+.css-modal-details details .cmc {
+  display:flex;
+  align-items:center;
+  justify-content:center;    
+}
+.css-modal-details details[open] .cmc {
+  pointer-events: none;
+  z-index: 4;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  animation: bg 0.5s ease;
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+/* Модальное окно */
+.css-modal-details details .cmt {
+  font-family: Verdana, sans-serif;  
+  font-size: 16px;
+  padding: 20px;
+  width:80%;
+  max-width: 600px;
+  max-height: 70%;
+  transition: 0.5s;
+  /* border: 6px solid var(--red); */
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  overflow: auto;
+}
+.css-modal-details details[open] .cmt {
+  animation: scale 0.5s ease;
+  z-index: 4;
+  pointer-events: auto;
+}
+
+/* Декоративная кнопка с крестиком */
+.css-modal-details details[open] .cmc:after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  /* border: 6px solid #BFE2FF; */
+  border-radius: 12px;
+  position: absolute;
+  z-index: 10;
+  top: 475px;
+  right: 775px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+  background-image: url("assets/images/closesm.svg");
+  background-color: #FFF;
+  background-size: 40px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  animation: scale 0.5s ease;
+}
+
+/* Анимации */
+@keyframes scale {
+  0% {
+      transform: scale(0);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+@keyframes move {
+  0% {
+      right: -80px;
+  }
+  100% {
+      right: 20px;
+  }
+}
+@keyframes bg {
+  0% {
+      /* background: rgba(51, 122, 183, 0); */
+  }
+  100% {
+      /* background: rgba(51, 122, 183, 0.7); */
   }
 }
