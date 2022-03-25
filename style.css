@@ -149,6 +149,7 @@ h2 {
   padding-right:5% ;
 }
 
+
 .defendContent ul li {
   color: var(--red);
   margin-top: 13px;
@@ -219,7 +220,7 @@ button{
   max-width: 229px;
 }
 
-form{
+.cmt  form{
   display: flex;
   justify-content: center;
 }
