@@ -73,7 +73,7 @@ h2 {
 }
 .el {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 17px;
   color: #434343;
@@ -1097,8 +1097,9 @@ footer {
   background-color: #1b1b1b;
   padding-top: 75px;
   padding-bottom: 75px;
-  
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .footer{
@@ -1118,7 +1119,7 @@ footer {
   line-height: 30px;
 }
 
-.footerSecond a{
+.footer a{
   color: #434343;
 }
 
@@ -1135,6 +1136,11 @@ footer {
 .reviewsContent {
   display: flex;
   min-height: 495px;
+  justify-content: center;
+}
+
+.reviewsContent h2{
+  text-align: center;
 }
 .carousel-wrapper {
   height: 300px;
