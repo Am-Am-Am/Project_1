@@ -1043,15 +1043,13 @@ footer {
     display: none;
   }
 
-  .header > .btn{
-    display: none;
-  }
 
   .situationContentMain {
    
     justify-content: space-evenly;
    
   }
+  
 
 }
 
@@ -1150,9 +1148,9 @@ footer {
 .questionsHead{
   flex-wrap: wrap;
 }
-.btnTop{
+/* .btnTop{
   display: none;
-}
+} */
 }
 
 
@@ -1399,6 +1397,7 @@ h2{
 
 /* Декоративная кнопка с крестиком */
 .css-modal-details details[open] .cmc:after {
+  display: none;
   content: "";
   width: 50px;
   height: 50px;
@@ -1406,8 +1405,8 @@ h2{
   border-radius: 12px;
   position: absolute;
   z-index: 10;
-  top: 475px;
-  right: 775px;
+  top: 35%;
+  left: 70%;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
   background-image: url("assets/images/closesm.svg");
   background-color: #FFF;
