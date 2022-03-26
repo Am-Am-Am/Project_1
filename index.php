@@ -278,7 +278,7 @@
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
                                                             <form id="wdh_form" name="form" class="justify" method="post" action="">
-                                                                <div class="callForm">
+                                                                <div class="callForm" class="justify">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
