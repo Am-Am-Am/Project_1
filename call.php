@@ -3,10 +3,10 @@
 
 $message = "<span style='font-size: 15px; line-height: 18px;'>";
 
-if (isset($_POST['telNo'])) {
+
 	$phone = $_POST['telNo'];
 	$message .= "<b>Телефон:</b> $phone<br>";
-}
+
 
 //$to  = "aristova.spb@gmail.com, verolex@bk.ru, sergey@horoshiystart.ru";
 $to ="Andrew@aidlegal.ru";
@@ -22,8 +22,6 @@ $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
 
 mail($to, '=?UTF-8?B?'.base64_encode($subject).'?=', $message, $headers); 
-mail($to, $subject, $message);
-
 
 
 ?>

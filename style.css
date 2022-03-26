@@ -632,13 +632,16 @@ color: #434343;
   font-size: 16px;
   padding: 20px;
   width:80%;
-  max-width: 400px;
-  max-height: 70%;
+  max-width: 500px;
+  min-height: 400px;
   transition: 0.5s;
   /* border: 6px solid var(--red); */
   border-radius: 12px;
   background: #F5F6F8;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   overflow: auto;
 }
@@ -1486,11 +1489,11 @@ footer {
   }
 
   .btn{
-    width: 300px;
+    width: 280px;
   }
 
   #telNo{
-    width: 290px;
+    width: 280px;
     position: relative;
     right: 5px;
   }
@@ -1830,15 +1833,17 @@ h2{
   font-family: Verdana, sans-serif;  
   font-size: 16px;
   padding: 20px;
-  width:80%;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 500px;
+  min-height: 400px;
   transition: 0.5s;
   /* border: 6px solid var(--red); */
   border-radius: 12px;
   background: #F5F6F8;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
   text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items:center;
   overflow: auto;
 }
 .css-modal-details details[open] .cmt {

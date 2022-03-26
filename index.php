@@ -8,7 +8,7 @@
     <title>VERO LEX GROUP</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./favicon.ico">
-    
+
     <?php
     include "call.php";
     ?>
@@ -55,7 +55,7 @@
                                     <div class="call">
                                         <div class="callHead">Оставьте заявку</div>
                                         <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                        <form id="wdh_form" name="form" class="justify">
+                                        <form id="wdh_form" name="form" class="justify" method="post" action="">
                                             <div class="callForm">
                                                 <div>
                                                     <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
@@ -88,17 +88,17 @@
                             <li><span>Правовая поддержка предпринимателей</span></li>
                         </ul>
                         <div class="call">
-                            <form id="wdh_form" name="form">
-                                <div class="callForm">
-                                    <div>
-                                        <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
-                                        <span class="validity"></span>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit">Оставить заявку</button>
-                                    </div>
-                                </div>
-                            </form>
+                        <form id="wdh_form" name="form"  method="post" action="">
+                                            <div class="callForm">
+                                                <div>
+                                                    <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
+                                                    <span class="validity"></span>
+                                                </div>
+                                                <div>
+                                                    <button class="btn" type="submit">Оставить заявку</button>
+                                                </div>
+                                            </div>
+                                        </form>
                             <div class="agreement"><a class="a" href="./agree.php">Отправляя данные, вы соглашаетесь с политикой конфиденциальности</a></div>
                         </div>
                     </div>
@@ -277,7 +277,7 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
@@ -316,14 +316,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -353,14 +353,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -389,14 +389,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -425,14 +425,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -461,14 +461,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -497,14 +497,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -533,14 +533,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -569,14 +569,14 @@
                                                         <div class="call">
                                                             <div class="callHead">Оставьте заявку</div>
                                                             <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                            <form id="wdh_form" name="form" class="justify">
+                                                            <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                                 <div class="callForm">
                                                                     <div>
                                                                         <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                         <span class="validity"></span>
                                                                     </div>
                                                                     <div>
-                                                                        <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                        <button class="btn" type="submit">Оставить заявку</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -620,14 +620,14 @@
                                                     <div class="call">
                                                         <div class="callHead">Оставьте заявку</div>
                                                         <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                        <form id="wdh_form" name="form" class="justify">
+                                                        <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                             <div class="callForm">
                                                                 <div>
                                                                     <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                     <span class="validity"></span>
                                                                 </div>
                                                                 <div>
-                                                                    <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                    <button class="btn" type="submit">Оставить заявку</button>
                                                                 </div>
                                                             </div>
                                                         </form>
@@ -856,14 +856,14 @@
                                                 <div class="call">
                                                     <div class="callHead">Оставьте заявку</div>
                                                     <div class="callText">Наш менеджер скоро свяжется с вами</div>
-                                                    <form id="wdh_form" name="form" class="justify">
+                                                    <form id="wdh_form" name="form" class="justify" method="post" action="">
                                                         <div class="callForm">
                                                             <div>
                                                                 <input id="telNo" name="telNo" type="tel" class="tel" required placeholder="+7(___) ___-__-__" inputmode="text">
                                                                 <span class="validity"></span>
                                                             </div>
                                                             <div>
-                                                                <button class="btn" id=" " type="submit">Оставить заявку</button>
+                                                                <button class="btn" type="submit">Оставить заявку</button>
                                                             </div>
                                                         </div>
                                                     </form>
