@@ -8,6 +8,7 @@
     <title>VERO LEX GROUP</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./favicon.ico">
+    
     <?php
     include "call.php";
     ?>
