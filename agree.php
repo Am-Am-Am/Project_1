@@ -8,40 +8,10 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header">
-                <div class="logo">
-                    <img src="assets/images/logo.svg">
-                </div>
-                <div class="headerLinks">
-                    <div class="e"><a href="#find">Преимущества</a></div>
-                    <div class="e"><a href="#suggest">Услуги</a></div>
-                    <div class="e"><a href="#result">Результаты работы</a></div>
-                    <div class="e"><a href="#questions">FAQ</a></div>
-                    <div class="e"><a href="#contacts">Контакты</a></div>
-                    <div id="telephone"><a href="tel:+74951059057"><span>+7 495 105 90 57</span></a></div>
-                </div>
-                <div class="btnTop"> 
-                        <div class="css-modal-details">    
-                            <details>
-                                <summary>Оставить заявку</summary>
-                                <div class="cmc">
-                                    <div class="cmt">
-                                        <p>Текст в модальном окне</p>        
-                                    </div>
-                                </div>
-                            </details>
-                        </div>
-                </div>
-                <div class="agree"></div>
-            </div>
-        </div>
-    </header>
     <main>
         <div class="container">
             <div class="mainWrapper">
-                <div><a class="a" href="index.html">Назад</a></div>
+                <div><a class="a" href="./index.php">Назад</a></div>
                  <h1>Политика конфиденциальности интернет-сайта</h1>
             <p class="firstP">Настоящая Политика конфиденциальности персональных данных (далее — Политика конфиденциальности) действует в отношении всей информации, размещенной на сайте в сети Интернет по адресу: lp.verolex.ru </p>
             <p class="firstP">Использование сервисов Сайта означает безоговорочное согласие пользователя с настоящей Политикой и указанными в ней условиями обработки его персональной информации. В случае несогласия с этими условиями Пользователь должен воздержаться от использования сервисов, а так же регистрации (предоставление информации).</p>
@@ -123,34 +93,10 @@
             <p class="firstP">7.3. Все предложения или вопросы по настоящей Политике конфиденциальности следует сообщать по электронному адресу: verolex@bk.ru</p>
             <p class="firstP">7.4. Действующая Политика конфиденциальности размещена по адресу: lp.verolex.ru</p>
             <p class="firstP">7.5. Настоящая Политика конфиденциальности является неотъемлемой частью Правил пользованием сайтом и/или об использовании Сайта lp.verolex.ru</p>
-            <div><a class="a" href="index.html">Назад</a></div>
+            <div><a class="a" href="./index.php">Назад</a></div>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <div class="footer">
-                <div class="footerFirst">
-                    <div class="whiteLogo">
-                        <img src="assets/images/logoWhite.svg">
-                    </div>
-                </div>
-                <div class="footerSecond">
-                    <div class="e"><a href="#find">Преимущества</a></div>
-                    <div class="e"><a href="#suggest">Услуги</a></div>
-                    <div class="e"><a href="#result">Результаты работы</a></div>
-                    <div class="e"><a href="#questions">FAQ</a></div>
-                    <div class="e"><a href="#contacts">Контакты</a></div>
-                    <div class="agreement"><a href="/agree.html">Политика конфиденциальности</a></div>
-                </div>
-                <div class="footerThird">
-                    <div>+7 495 105 90 57</div>
-                    <div>С 10:00 до 19:00</div>
-                    <div>Станция метро Трубная, ул. Нижний кисельский переулок, 3 стр. 2</div>
-                </div>
-            </div>
-        </div>
-    </footer>
     <script src="assets/script.js"></script>
     <script src="assets/scriptResult.js"></script>
     <script src="assets/scriptNumber.js"></script>

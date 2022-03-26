@@ -38,6 +38,9 @@ h2 {
   padding: 10px;
   max-width: 1200px;
 }
+.false > .call{
+  display: none;
+}
 
 
 .logo {
@@ -296,7 +299,7 @@ button{
   
 }
 .cardContent {
-  padding: 10px;
+  padding: 20px;
 }
 
 .cardContent h3 {
@@ -830,8 +833,19 @@ summary:hover{
   border-radius: 5px;
   background: #ffffff;
   display: flex;
-  padding: 20px;
   justify-content: space-between;
+}
+
+#case2{
+  position: absolute;
+  width: 1%;
+  z-index: -999;
+}
+
+#case3{
+  position: absolute;
+  width: 1%;
+  z-index: -999;
 }
 
 .case {
@@ -958,14 +972,14 @@ summary:hover{
 
 .cardHead {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #FFFFFF;
   box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 20px 20px 0px 20px;
-  min-height: 112px;
+  
+  max-height: 112px;
 }
 
 .headerText {
@@ -973,6 +987,9 @@ summary:hover{
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  display: flex;
+  align-items:center;
+  padding: 20px 20px 20px 20px;
 }
 
 .cardContent {
@@ -1447,6 +1464,19 @@ footer {
 
 
 @media (max-width: 480px) {
+  
+
+  .cardHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+    max-height: 100px;
+  }
 
   .btn{
     width: 300px;
@@ -1459,11 +1489,19 @@ footer {
   }
   .choose {
     width: 320px;
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    justify-content:center;
   }
+
+  .chooseCard{
+    margin-right: auto;
+    margin-left: auto;
+    width: 240px;
+  }
+ 
+ 
 
   .stagesCard{
     margin-right: 0px;
@@ -1615,6 +1653,17 @@ h2{
 
 
 @media (max-width: 320px) {
+  .cardHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+    max-height: 100px;
+  }
   .btn{
     width: 290px;
   }
